@@ -1,0 +1,61 @@
+html,body{ 
+    margin:0 auto;
+  }
+  
+  body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:134% auto;
+    background-position:auto;
+    font:kanit;
+    color:white;
+  }
+  
+  fieldset{
+    margin:0 auto;
+    width:500px;
+    height:auto;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.427),rgba(15, 85, 118, 0.427) );
+    border:none;
+  }
+  h1,p,textarea,h3 {
+    text-align:center;
+    
+  }
+  input{
+    display:block;
+    width:95%;
+    margin:10px 0;
+  }
+  select{
+    display:block;
+    margin:10px 0;
+    width:95%
+  }
+  
+  .inline{
+    display:flex;
+    align-items:center;
+    gap:0.5em;
+  }
+  
+  input[type="radio"],input[type="checkbox"]{
+    width:unset;
+    
+  }
+  textarea{
+    width:90%;
+    margin:1em 2px 10px 30px;
+  }
+  input[type="submit"]{
+    font-size:18px;
+    margin:1em auto;
+    width:10em;
+    box-shadow:0 0 6px 0  rgb(0, 0, 0);
+    transition:background 0.3s ease;
+  }
+  input[type="submit"]:hover{
+     background: linear-gradient(45deg, #00ff96, #00ccff);
+     cursor:pointer;
+     
+  
+  }

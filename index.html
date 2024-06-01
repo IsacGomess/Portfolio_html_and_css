@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We need to know more about you, answer this <strong>Survey Form</strong></p>
+    <form id="survey-form">
+      <fieldset>
+        <fieldset>
+        <label id="name-label" >Name <input type="text" id="name" placeholder="Enter your name" /> </label>
+        <label id="email-label">Email <input type="email" placeholder="Enter your email"/></label>
+        <label id="number-label"> Age (optional) <input type="number" min="10" max="115" placeholder="Enter your age"/></label>
+        <label id="role">Which option best describes your current role? 
+          <select>
+            <option value="" >Select current role</option>
+            <option>Student</option>
+            <option> Full time job</option>
+            <option> Full time learner</option>
+            <option> Prefer not to say</option>
+            <option>Other </option>
+          </select>
+        </label>
+        </fieldset>
+        <fieldset>
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <label class="inline"> <input type="radio" name="recommend" checked/> Definely</label>
+          <label class="inline"> <input type="radio" name="recommend" /> Maybe </label>
+          <label class="inline"><input type="radio"name="recommend"/> Not sure </label>
+          <label><p>What is your favorite feature of freeCodeCamp?</p>
+            <select id="dropdow">
+            <option value="" >Select an option</option>
+            <option>Challenges</option>
+            <option>Projects </option>
+            <option> Community</option>
+            <option> Open Source</option>
+          </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <p>What would you like to see improved? (Check all that apply)</p>
+          <label class="inline"> <input type="checkbox" value="front-End"/> Front-end Projects</label>
+          <label class="inline"> <input type="checkbox" value="back-End"/>Back-end Projects </label>
+          <label class="inline"><input type="checkbox" value="data"/> Data Visualization</label>
+          <label class="inline"><input type="checkbox" value="challenges"/>Challenges </label>
+          <label class="inline"><input type="checkbox" value="open-source"/>Open Source Community</label>
+          <label class="inline"><input type="checkbox" value="gitter"/>Gitter help rooms</label>
+          <label class="inline"><input type="checkbox" value="videos"/> Videos </label>
+          <label class="inline"><input type="checkbox" value="city"/>City Meetups</label>
+          <label class="inline"><input type="checkbox" value="wiki"/>Wiki</label>
+          <label class="inline"><input type="checkbox" value="forum"/>Forum</label>
+          <label class="inline"><input type="checkbox" value="adicional-courses"/>Additional Courses </label>
+        </fieldset>
+        <p>Any comments or suggestions ?</p>
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <input type="submit" id="submit" value="Submit"/>
+      </fileldset>
+    </form>
+  </body>
+</html>
